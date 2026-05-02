@@ -32,7 +32,7 @@ export default function StickyBar() {
 
   return (
     <div
-      className="fixed bottom-0 left-0 right-0 z-50 md:hidden flex gap-2.5 bg-obsidian/[0.97] backdrop-blur-xl border-t border-gold/[0.18] px-5 py-3 transition-transform duration-300"
+      className="fixed bottom-0 left-0 right-0 z-30 md:hidden flex gap-2.5 bg-obsidian/[0.97] backdrop-blur-xl border-t border-gold/[0.18] px-5 py-3 transition-transform duration-300"
       style={{
         paddingBottom: 'calc(12px + env(safe-area-inset-bottom, 0px))',
         WebkitBackdropFilter: 'blur(16px)',
@@ -45,7 +45,7 @@ export default function StickyBar() {
       <a
         href="#notify"
         onClick={scrollToNotify}
-        className="flex-1 flex items-center justify-center gap-2 bg-pink rounded-xl py-3.5 text-white text-sm font-bold min-h-[48px] active:opacity-80"
+        className="flex-1 flex items-center justify-center gap-2 bg-pink rounded-xl py-3.5 text-obsidian text-sm font-bold min-h-[48px] active:opacity-80"
       >
         🔔 Notify Me
       </a>
