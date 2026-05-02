@@ -1,5 +1,5 @@
 const items = [
-  { emoji: '🇮🇳', highlight: 'Made in Patna, India', rest: '' },
+  { emoji: '🇮🇳', highlight: 'Made in India', rest: '' },
   { emoji: '🔐', highlight: 'DPDP 2023', rest: 'Compliant' },
   { emoji: '🤖', highlight: 'Gemini AI', rest: 'Powered' },
   { emoji: '📦', highlight: '18+ brands', rest: 'supported' },
